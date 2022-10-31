@@ -3,4 +3,4 @@
 	url = https://github.com/lmello0/product-preview-card
 [submodule "qr-code"]
 	path = qr-code
-	url = https://github.com/lmello0/qr-code
+	url = git@github.com:lmello0/qr-code.git
