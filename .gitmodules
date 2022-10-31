@@ -1,3 +1,6 @@
 [submodule "product-preview-card"]
 	path = product-preview-card
 	url = https://github.com/lmello0/product-preview-card
+[submodule "qr-code"]
+	path = qr-code
+	url = https://github.com/lmello0/qr-code
