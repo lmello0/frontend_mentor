@@ -4,3 +4,6 @@
 [submodule "qr-code"]
 	path = qr-code
 	url = git@github.com:lmello0/qr-code.git
+[submodule "column-preview-card"]
+	path = column-preview-card
+	url = git@github.com:lmello0/column-preview-card.git
