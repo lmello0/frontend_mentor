@@ -28,7 +28,6 @@ main {
 }
 
 .main-card {
-    /* border: 5px solid red; */
     height: 100%;
 }
 
@@ -97,4 +96,34 @@ main {
     letter-spacing: 3px;
     padding: 10px 0px;
     text-transform: uppercase;
+}
+
+@media screen and (min-width: 375px) {
+    body {
+        flex-direction: column;
+        height: 200vh;
+    }
+
+    main {
+        height: 160vh;
+    }
+
+    .main-card {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .text-content {
+        display: none;
+    }
+
+    .image {
+        border: 2px solid white;
+        height: 30%;
+        width: 100%;
+    }
+
+    .image img {
+        /* display: none; */
+    }
 }
